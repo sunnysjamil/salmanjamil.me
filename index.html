@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salman Jamil</title>
+  <meta name="description" content="Personal portal & domain gateway for salmanjamil.me">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dynamic Sky & Landscape Background Canvas -->
+  <canvas id="skyCanvas"></canvas>
+
+  <!-- Ambient Glow Elements -->
+  <div class="ambient-glow top-left"></div>
+  <div class="ambient-glow bottom-right"></div>
+
+  <!-- Main Minimalist Portal Card -->
+  <main class="portal-wrapper">
+    <div class="portal-card">
+      <div class="badge-pill">
+        <span class="pulse-sparkle">✦</span>
+        <span>Gateway Portal</span>
+      </div>
+
+      <h1 class="portal-title">Salman Jamil</h1>
+      <p class="portal-tagline">
+        Welcome to the personal domain space. Explore individual portals below.
+      </p>
+
+      <!-- Portal Buttons List -->
+      <div class="links-container">
+        <a href="https://sunny.salmanjamil.me" class="portal-btn featured-link" target="_blank" rel="noopener noreferrer">
+          <div class="btn-info">
+            <div class="btn-avatar">S</div>
+            <div class="btn-text">
+              <span class="btn-name">Sunny S. Jamil</span>
+              <span class="btn-sub">Personal Dashboard & Projects</span>
+            </div>
+          </div>
+          <div class="btn-arrow">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      <!-- Subtle Footer / Domain Indicator -->
+      <footer class="portal-footer">
+        <span>salmanjamil.me</span>
+      </footer>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
